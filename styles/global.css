@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  font-family: 'Poppins';
+  color: var(--text-color-secondary);
+
+  --brand-color:hsl(7, 84%, 62%);
+  --background-color:hsl(0, 0%, 100%);
+  --surface-color: hsl(0, 0%, 96%);
+  --skeleton-color: hsl(0, 0%, 85%);
+  --shape-transparency: hsl(0, 0%, 56%);
+  --text-color-primary: #313131;
+  --text-color-secondary: #6C6C6C;
+}
+
+body {
+  background-color: var(--surface-color);
+}

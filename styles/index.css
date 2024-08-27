@@ -1,0 +1,104 @@
+@import url(/styles/global.css);
+
+/*HEADER*/
+header {
+  height: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 2.4rem 3.2rem;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--brand-color);
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 2rem;
+
+  font-size: 1.6rem;
+  line-height: 150%;
+}
+
+li img {
+  width: 2.4rem;
+}
+
+ul > li:nth-child(4) img {
+  width: 4rem;
+}
+
+/*PROFILE*/
+
+#info, .profile, .bio {
+  display: flex;
+}
+
+#info {
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.2rem;
+}
+
+.profile {
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.bio, #info ul {
+  flex-direction: column;
+}
+
+.bio {
+  width: 38rem;
+}
+
+h1 {
+  font-size: 3.2rem;
+  line-height: 150%;
+  color: var(--text-color-primary);
+}
+
+p, #info ul {
+  font-size: 1.4rem;
+  line-height: 170%;
+}
+
+#info ul {
+  width: 28rem;
+  gap: 1.6rem;
+  align-items: start;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+}
+
+/*GALLERY*/
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  
+  padding: 2.4rem 3.2rem;
+  gap: 2.4rem;
+ 
+  background-color: var(--background-color); 
+}
+
+#gallery img {
+  flex: 1 0 24rem;
+}
+
+
