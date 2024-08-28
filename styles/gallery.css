@@ -1,8 +1,3 @@
-main {
-  width: 100%;
-  background-color: var(--background-color);
-}
-
 #gallery {
   max-width: 128rem;
 
@@ -14,5 +9,6 @@ main {
 }
 
 #gallery img {
-  flex: 1 0 24rem;
+  flex: 1 0 28rem;
+  object-fit: cover;
 }

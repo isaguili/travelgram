@@ -1,5 +1,6 @@
-header {
-  
+.surface-color {
+  width: 100%;
+  background-color: var(--surface-color); 
 }
 
 header {

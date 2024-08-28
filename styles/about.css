@@ -1,20 +1,20 @@
-#profile-info, #presentation, #description, #data {
+#about, #main {
   display: flex;
 }
 
-#profile-info {
+#about {
   justify-content: space-between;
   align-items: center;
   
   padding-block: 3.2rem;
 }
 
-#presentation {
+#main{
   align-items: center;
   gap: 3.2rem;
 }
 
-#description, #data ul {
+#info {
   flex-direction: column;
 }
 
@@ -23,22 +23,23 @@
 }
 
 h1 {
+  margin-bottom: .8rem;
   font: var(--text-lg);
   color: var(--text-color-primary);
 }
 
-p, #data ul {
+p, #info {
   font: var(--text-md);
 }
 
-#data ul {
+#info {
   width: 28rem;
   gap: 1.6rem;
   padding: 0;
   align-items: start;
 }
 
-li {
+#info li {
   display: flex;
   align-items: center;
   gap: .8rem;

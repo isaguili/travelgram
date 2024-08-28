@@ -27,7 +27,6 @@
 }
 
 body {
-  background-color: var(--surface-color); 
   color: var(--text-color-secondary);
 }
 
