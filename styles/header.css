@@ -1,0 +1,31 @@
+header {
+  
+}
+
+header {
+  display: flex;
+  height: 8rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  
+  padding: .8rem .4rem;
+  gap: 2.4rem;
+  
+  list-style: none;
+  font: var(--text);
+}
+
+ul > a:nth-child(4) img {
+  width: 4rem;
+}
+
+li:hover {
+  color: var(--brand-color);
+  text-decoration: underline;
+}
+

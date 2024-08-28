@@ -1,0 +1,18 @@
+main {
+  width: 100%;
+  background-color: var(--background-color);
+}
+
+#gallery {
+  max-width: 128rem;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  padding-block: 2.4rem;
+  gap: 2.4rem;
+}
+
+#gallery img {
+  flex: 1 0 24rem;
+}

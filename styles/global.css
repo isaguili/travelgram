@@ -8,8 +8,14 @@
 
 :root {
   font-size: 62.5%;
-  font-family: 'Poppins';
-  color: var(--text-color-secondary);
+  
+  --font-family: "Poppins", sans-serif;
+
+  --text-logo: bold 2rem/160% var(--font-family);
+  --text-lg: bold 3.2rem/125% var(--font-family);
+  --text: 1.6rem/150% var(--font-family);
+  --text-md: 1.4rem/170% var(--font-family);
+  --text-sm: 1.2rem/170% var(--font-family);
 
   --brand-color:hsl(7, 84%, 62%);
   --background-color:hsl(0, 0%, 100%);
@@ -21,5 +27,17 @@
 }
 
 body {
-  background-color: var(--surface-color);
+  background-color: var(--surface-color); 
+  color: var(--text-color-secondary);
+}
+
+.container {
+  margin: auto;
+  padding-inline: 3.2rem;
+  max-width: 128rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }

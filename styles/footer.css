@@ -1,0 +1,13 @@
+footer, footer div {
+  display: flex;
+}
+
+footer {
+  height: 7.2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer div {
+  gap: 1.6rem;
+}

@@ -1,0 +1,45 @@
+#profile-info, #presentation, #description, #data {
+  display: flex;
+}
+
+#profile-info {
+  justify-content: space-between;
+  align-items: center;
+  
+  padding-block: 3.2rem;
+}
+
+#presentation {
+  align-items: center;
+  gap: 3.2rem;
+}
+
+#description, #data ul {
+  flex-direction: column;
+}
+
+#description {
+  max-width: 38rem;
+}
+
+h1 {
+  font: var(--text-lg);
+  color: var(--text-color-primary);
+}
+
+p, #data ul {
+  font: var(--text-md);
+}
+
+#data ul {
+  width: 28rem;
+  gap: 1.6rem;
+  padding: 0;
+  align-items: start;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+}
